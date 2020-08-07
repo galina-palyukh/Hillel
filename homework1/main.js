@@ -74,3 +74,75 @@
 // let partOfStr = (str.slice(0, 21));
 // let result = (partOfStr + ` ` + likeStudying);
 // alert(result);
+
+
+// let name = prompt("Укажите Имя");
+// let age = prompt("Укажите Возраст");
+//
+//
+// if ((name === "John" && age === "26") || (name === "Kate" && age === "22")) {
+//     alert("Hello" + name + " " + age);
+// } else if (name === "" && age === "") {
+//     alert("Неверно");
+// } else {
+//     alert("Все остальное");
+// }
+//
+//
+
+
+for (let i = 0; i < 9; i++) {
+    console.log(i);
+
+    let odd = i % 2;
+
+    if (odd === 0) {
+        continue;
+    } else {
+        alert("i");
+    }
+}
+
+
+// let name = prompt("Введите пол");
+//
+// switch (name) {
+//     case "женский":
+//         alert("Привет девушка");
+//         break;
+//     case "мужской":
+//         alert("Привет мужчина");
+//         break;
+//     case "":
+//     default:
+//         alert("Пусто");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
